@@ -1,6 +1,6 @@
 .botao {
     background: linear-gradient(#ffbb00, #f2a50c);
-    color: #332200;
+    color: var(--cor-p5);
     display: inline-block;
     padding: 16px 32px;
     border-radius: 4px;
@@ -12,7 +12,7 @@
     font-weight: 600;
   }
   
-  .botao{
+  .botao:hover{
     background: linear-gradient(#ffb60d, #e59317);
   }
   
